@@ -17,10 +17,10 @@ subtitle: 'Much of what we do as humans is engage socially with other agents, a 
     
     <tr>
         <td>
-            <img src="/images/index/s11-l1.gif"> 
+            <center><img src="/images/index/s11-l1.gif" ></center>
         </td>
         <td>
-            <img src="/images/index/s11-l2.gif">
+            <center><img src="/images/index/s11-l2.gif"></center>
         </td>
     </tr>
 </table>
