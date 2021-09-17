@@ -10,21 +10,21 @@ menu_settings:
   menu_items:
     - title: 'Overview'
       url: '/'
-    - title: 'Contributions'
-      url: '/#contributions'
     - title: 'Scenarios'
-      url: '/#scenarios'
+      url: '/scenarios'
     - title: 'Results'
-      url: '/#results'  
+      url: '/results'  
     - title: 'Paper'
-      url: '/#paper'  
-    - title: 'Code'
-      url: '/#code'
+      url: '/paper'  
+    - title: 'Team'
+      url: '/team'
+    - title: 'Contact'
+      url: '/contact'
     
 footer_settings:
   logo_image: 
   logo_width: 200
-  footer_tagline: Social Interactions as Reward Functions in Social MDPs
+  footer_tagline: Incorporating Rich Social Interactions Into MDPs
 
 grid_settings:
   overlay_opacity: 0.8
@@ -33,7 +33,7 @@ grid_settings:
 contact_settings:
   form_action: 'https://formspree.io/f/xknkznga'
   confirmation_url: '/thanks'
-  email_subject: 'Social Interactions MDP - Contact form submission'
+  email_subject: 'Incorporating Rich Social Interactions Into MDPs - Contact form submission'
   send_button_text: 'Send Message'
 
 social_settings:
