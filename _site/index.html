@@ -124,7 +124,7 @@
 	<div class="wrap">
 
 		<h1>Incorporating Rich Social Interactions Into MDPs</h1>
-		<p>Much of what we do as humans is engage socially with other agents, a skill that robots must also eventually possess. We demonstrate that a rich theory of social interactions originating from microsociology and economics can be formalized by extending a nested MDP where agents reason about arbitrary functions of each others hidden rewards. This extended Social MDP allows us to encode the five basic interactions that underlie microsociology: cooperation, conflict, coercion, competition, and exchange. The result is a robotic agent capable of executing social interactions zero-shot in new environments; like humans it can engage socially in novel ways even without a single example of that social interaction. Moreover, the judgments of these Social MDPs align closely with those of humans when considering which social interaction is taking place in an environment. This method both sheds light on the nature of social interactions, by providing concrete mathematical definitions, and brings rich social interactions into a mathematical framework that has proven to be natural for robotics, MDPs.</p>
+		<p>As we aim to enable robots to engage socially with other agents much as we do as humans, there is a need for a rich theory of social interactions. We formalize this by extending Social MDPs where agents reason about arbitrary functions of each others hidden rewards. The extended Social MDPs encode five basic social interactions: <i>cooperate, conflict, competition, coercion and exchange</i> and can produce actions that are close to human judgements.</p>
 
 	</div>
 
@@ -132,7 +132,12 @@
 
 <section class="single">
 
-	<table cellpadding="1">
+	<h2 id="experimental-scenarios">Experimental Scenarios</h2>
+<p>We apply our extended Social MDP framework to a multi-agent gridworld. This 10x10 world consists of two agents (a yellow robot and red robot), two physical landmarks (a construction site and a tree) and three objects (an axe, wooden log, and a water bucket). Objects can be pushed to either destination. Physical goals consist of moving the desired objects to one of the landmarks. Agents can have <em>no social goal</em> or one of the five social goals: <em>cooperation, conflict, competition, coercion, or exchange</em> - leading to 2x6x6 = 72 scenarios. At any point in time, agents can push an object forward, move in one of the four cardinal directions or choose to take no actions. Refer to the list of <a href="/scenarios">all experimenal scenarios</a>.</p>
+
+<h4 id="example-demonstration">Example Demonstration</h4>
+
+<table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
             <b>Level 1</b>
@@ -151,7 +156,10 @@
         </td>
     </tr>
 </table>
-<p><b>Example:</b> Red robot is initialized with the physical goal of tree and social goal of exchange. Yellow robot is initialized with the physical goal of construction site and social goal of cooperation. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goal</font> (Social:<strong>Exchange</strong>; Physical:<em>Tree</em>). <font color="orange">Yellow robot's goal</font> (Social:<strong>Cooperation</strong>; Physical:<em>Construction Site</em>). Using extended Social MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot, and takes optimal actions in order to reach its goal.</span></p>
+
+<h2 id="inferring-social-interactions-at-different-levels">Inferring Social Interactions at Different Levels</h2>
+<p><img src="/images/index/levels-of-reasoning.gif" /></p>
 
 <h2 id="contributions">Contributions</h2>
 <ul>
@@ -161,195 +169,12 @@
   <li>Extensive human experiments that validate the model and demonstrate its ability to capture human judgments about social interactions.</li>
 </ul>
 
-<h2 id="scenarios">Scenarios</h2>
-<p>We apply our extended Social MDP framework to a multi-agent gridworld. This 10x10 world consists of two agents (a yellow robot and red robot), two physical landmarks (a construction site and a tree) and three objects (an axe, wooden log, and a water bucket). Objects can be pushed to either destination. Physical goals consist of moving the desired objects to one of the landmarks. Agents can have <em>no social goal</em> or one of the five social goals: <em>cooperation, conflict, competition, coercion, or exchange</em> - leading to 2x6x6 = 72 scenarios. At any point in time, agents can push an object forward, move in one of the four cardinal directions or choose to take no actions. Refer to the list of <a href="/scenarios">all scenarios</a>.</p>
-
-<h4 id="highlighted-scenarios">Highlighted Scenarios</h4>
-
-<h6 id="scenario-11">Scenario 11</h6>
-<p>Red robot is initialized with the physical goal of tree and social goal of exchange. Yellow robot is initialized with the physical goal of construction site and social goal of cooperation. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
-<table cellpadding="1">
-    <tr>
-        <td style="width:50%; text-align:center">
-            Level 1
-        </td>
-        <td style="width:50%; text-align:center">
-            Level 2
-        </td>
-    </tr>
-    
-    <tr>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/bmw3qBhe9FM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/TY0oP-kcW7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-    </tr>
-</table>
-
-<hr />
-
-<h6 id="scenario-12">Scenario 12</h6>
-<p>Red robot is initialized with the physical goal of construction site and social goal of neutral. Yellow robot is initialized with the physical goal of Tree and social goal of cooperate. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
-<table cellpadding="1">
-    <tr>
-        <td style="width:50%; text-align:center">
-            Level 1
-        </td>
-        <td style="width:50%; text-align:center">
-            Level 2
-        </td>
-    </tr>
-    
-    <tr>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/lGhqyo31pTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/G24tUCnQwYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-    </tr>
-</table>
-
-<hr />
-
-<h6 id="scenario-25">Scenario 25</h6>
-<p>Red robot is initialized with the physical goal of tree and social goal of cooperate. Yellow robot is initialized with the physical goal of construction site and social goal of coercion. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
-<table cellpadding="1">
-    <tr>
-        <td style="width:50%; text-align:center">
-            Level 1
-        </td>
-        <td style="width:50%; text-align:center">
-            Level 2
-        </td>
-    </tr>
-    
-    <tr>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/5MLA5jTWafA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/9ZqOn80avUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-    </tr>
-</table>
-
-<hr />
-
-<h6 id="scenario-35">Scenario 35</h6>
-<p>Red robot is initialized with the physical goal of construction site and social goal of exchange. Yellow robot is initialized with the physical goal of tree and social goal of exchange. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
-<table cellpadding="1">
-    <tr>
-        <td style="width:50%; text-align:center">
-            Level 1
-        </td>
-        <td style="width:50%; text-align:center">
-            Level 2
-        </td>
-    </tr>
-    
-    <tr>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/sMTkHizQRjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/UcElWwq3XFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-    </tr>
-</table>
-
-<hr />
-
-<h6 id="scenario-49">Scenario 49</h6>
-<p>Red robot is initialized with the physical goal of construction site and social goal of cooperate. Yellow robot is initialized with the physical goal of construction site and social goal of conflict. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
-<table cellpadding="1">
-    <tr>
-        <td style="width:50%; text-align:center">
-            Level 1
-        </td>
-        <td style="width:50%; text-align:center">
-            Level 2
-        </td>
-    </tr>
-    
-    <tr>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/pPUnspVGXxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/CdQ9I2z2IDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-    </tr>
-</table>
-
-<hr />
-
-<h6 id="scenario-52">Scenario 52</h6>
-<p>Red robot is initialized with the physical goal of tree and social goal of coercion. Yellow robot is initialized with the physical goal of tree and social goal of conflict. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
-<table cellpadding="1">
-    <tr>
-        <td style="width:50%; text-align:center">
-            Level 1
-        </td>
-        <td style="width:50%; text-align:center">
-            Level 2
-        </td>
-    </tr>
-    
-    <tr>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/Q3WwP8wdu14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/NTayxcWqxCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-    </tr>
-</table>
-
-<hr />
-
-<h6 id="scenario-63">Scenario 63</h6>
-<p>Red robot is initialized with the physical goal of tree and social goal of competition. Yellow robot is initialized with the physical goal of tree and social goal of coercion. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
-<table cellpadding="1">
-    <tr>
-        <td style="width:50%; text-align:center">
-            Level 1
-        </td>
-        <td style="width:50%; text-align:center">
-            Level 2
-        </td>
-    </tr>
-    
-    <tr>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/xDG-sbhzdzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-        <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/8VUD-SKQzCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        </td>
-    </tr>
-</table>
-
-<hr />
-
 <h2 id="results">Results</h2>
-<div class="gallery" data-columns="1">  
-    <img src="/images/index/goal-weights.png" />
-</div>
-<p><span style="font-size:medium;">Humans and our model scored 72 scenarios according to how likely each social interaction was and how likely one of the physical goals was. The straight line is the best linear fit and the light blue band represents the 95% confidence interval. Our model agrees with humans and predicts their confidence scores for both social interactions and the physical goal.</span></p>
-<p>Refer to the results of <a href="/results">all experimenal scenarios</a>.</p>
+<p><img src="/images/index/goal-weights.png" width="900" /></p>
+<p><span style="font-size:medium;">Humans and our model scored 72 scenarios according to how likely each social interaction was and how likely one of the physical goals was. The straight line is the best linear fit and the light blue band represents the 95% confidence interval. Our model agrees with humans and predicts their confidence scores for both social interactions and the physical goal. Refer to the <a href="/results">results of all experimenal scenarios</a>.</span></p>
 
 <h3 id="paper">Paper</h3>
-<p>The paper is currently under review at the <em>39th IEEE Conference on Robotics and Automation (ICRA 2022)</em>. The latest version of the paper can be found <a href="/paper">here</a>.</p>
+<p>The paper is currently under review at the <em>39th IEEE Conference on Robotics and Automation (ICRA 2022)</em>. Refer to the <a href="/paper">latest version of the paper</a>.</p>
 
 <h3 id="code">Code</h3>
 <p>Refer to the <a href="https://github.com/Social-Interactions-MDP/social-interactions-mdp-framework">Social-Interactions-MDP repository</a> for the codebase.</p>

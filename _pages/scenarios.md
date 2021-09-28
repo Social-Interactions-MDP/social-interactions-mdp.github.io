@@ -1,7 +1,7 @@
 ---
 permalink: /scenarios/
 title: Scenarios
-subtitle: We describe different possible scenarios demonstrating diverse set of social interactions in 2D grid world 
+subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld. This 10x10 world consists of two agents (a yellow robot and red robot), two physical landmarks (a construction site and a tree) and three objects (an axe, wooden log, and a water bucket). Objects can be pushed to either destination. Physical goals consist of moving the desired objects to one of the landmarks. Agents can have no social goal or one of the five social goals: cooperation, conflict, competition, coercion, or exchange - leading to 2x6x6 = 72 scenarios. At any point in time, agents can push an object forward, move in one of the four cardinal directions or choose to take no actions.'
 ---
 
 <table style="text-align:center">
