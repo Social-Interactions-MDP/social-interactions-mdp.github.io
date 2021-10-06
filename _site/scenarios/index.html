@@ -124,7 +124,7 @@
 	<div class="wrap">
 
 		<h1>Scenarios</h1>
-		<p>We apply the extended Social MDP framework to a multi-agent gridworld. This 10x10 world consists of two agents (a yellow robot and red robot), two physical landmarks (a construction site and a tree) and three objects (an axe, wooden log, and a water bucket). Objects can be pushed to either destination. Physical goals consist of moving the desired objects to one of the landmarks. Agents can have no social goal or one of the five social goals: cooperation, conflict, competition, coercion, or exchange - leading to 2x6x6 = 72 scenarios. At any point in time, agents can push an object forward, move in one of the four cardinal directions or choose to take no actions.</p>
+		<p>We apply the extended Social MDP framework to a multi-agent gridworld which consists of two agents (a yellow robot and red robot), two physical landmarks (a construction site and a tree) and three objects (an axe, wooden log, and a water bucket). Physical goals consist of moving the desired objects to one of the landmarks. Agents can have no social goal or one of the five social goals: <i>cooperation, conflict, competition, coercion, or exchange</i> leading to 2x6x6 = 72 scenarios.</p>
 
 	</div>
 
@@ -141,536 +141,539 @@
 <td> </td>
     <td><b>Physical Goal</b></td>
     <td><b>Social Goal</b></td>
-    <td><b>Physical Goal</b></td>
     <td><b>Social Goal</b></td>
+    <td><b>Physical Goal</b></td>
 </tr>
 <tr>
 <td><a href="#scenario-1">Scenario 1</a></td>
 <td>Tree</td>
-<td>Neutral</td>
-<td>Construction Site</td>
+<td>None</td>
 <td>Cooperate</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-2">Scenario 2</a></td>
 <td>Construction Site</td>
-<td>Neutral</td>
-<td>Tree</td>
+<td>None</td>
 <td>Conflict</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-3">Scenario 3</a></td>
 <td>Tree</td>
-<td>Neutral</td>
-<td> </td>
+<td>None</td>
 <td>Competiton</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-4">Scenario 4</a></td>
 <td>Tree</td>
-<td>Neutral</td>
-<td> </td>
+<td>None</td>
 <td>Coercion</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-5">Scenario 5</a></td>
 <td>Construction Site</td>
-<td>Neutral</td>
-<td> </td>
+<td>None</td>
 <td>Exchange</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-6">Scenario 6</a></td>
 <td>Tree</td>
-<td>Neutral</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>None</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-7">Scenario 7</a></td>
 <td>Tree</td>
 <td>Cooperate</td>
-<td> </td>
 <td>Cooperate</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-8">Scenario 8</a></td>
 <td>Construction Site</td>
 <td>Cooperate</td>
-<td> </td>
 <td>Conflict</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-9">Scenario 9</a></td>
 <td>Tree</td>
 <td>Cooperate</td>
-<td> </td>
 <td>Competiton</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-10">Scenario 10</a></td>
 <td>Tree</td>
 <td>Cooperate</td>
-<td> </td>
 <td>Coercion</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-11">Scenario 11</a></td>
 <td>Construction Site</td>
 <td>Cooperate</td>
-<td> </td>
 <td>Exchange</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-12">Scenario 12</a></td>
 <td>Tree</td>
 <td>Cooperate</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-13">Scenario 13</a></td>
 <td>Construction Site</td>
 <td>Conflict</td>
-<td> </td>
 <td>Cooperate</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-14">Scenario 14</a></td>
 <td>Construction Site</td>
 <td>Conflict</td>
-<td> </td>
 <td>Conflict</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-15">Scenario 15</a></td>
 <td>Tree</td>
 <td>Conflict</td>
-<td> </td>
 <td>Competiton</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-16">Scenario 16</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Conflict</td>
-<td> </td>
 <td>Coercion</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-17">Scenario 17</a></td>
 <td>Tree</td>
 <td>Conflict</td>
-<td> </td>
 <td>Exchange</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-18">Scenario 18</a></td>
 <td>Construction Site</td>
 <td>Conflict</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-19">Scenario 19</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Competiton</td>
-<td> </td>
 <td>Cooperate</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-20">Scenario 20</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Competiton</td>
-<td> </td>
 <td>Conflict</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-21">Scenario 21</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Competiton</td>
-<td> </td>
 <td>Competiton</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-22">Scenario 22</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Competiton</td>
-<td> </td>
 <td>Coercion</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-23">Scenario 23</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Competiton</td>
-<td> </td>
 <td>Exchange</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-24">Scenario 24</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Competiton</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-25">Scenario 25</a></td>
 <td>Construction Site</td>
 <td>Coercion</td>
-<td> </td>
 <td>Cooperate</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-26">Scenario 26</a></td>
 <td>Tree</td>
 <td>Coercion</td>
-<td> </td>
 <td>Conflict</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-27">Scenario 27</a></td>
 <td>Tree</td>
 <td>Coercion</td>
-<td> </td>
 <td>Competiton</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-28">Scenario 28</a></td>
 <td>Tree</td>
 <td>Coercion</td>
-<td> </td>
 <td>Coercion</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-29">Scenario 29</a></td>
 <td>Construction Site</td>
 <td>Coercion</td>
-<td> </td>
 <td>Exchange</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-30">Scenario 30</a></td>
 <td>Tree</td>
 <td>Coercion</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-31">Scenario 31</a></td>
 <td>Construction Site</td>
 <td>Exchange</td>
-<td> </td>
 <td>Cooperate</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-32">Scenario 32</a></td>
 <td>Construction Site</td>
 <td>Exchange</td>
-<td> </td>
 <td>Conflict</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-33">Scenario 33</a></td>
-<td>Tree</td>
+<td>Construction Site</td>
 <td>Exchange</td>
-<td> </td>
 <td>Competiton</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-34">Scenario 34</a></td>
 <td>Construction Site</td>
 <td>Exchange</td>
-<td> </td>
 <td>Coercion</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-35">Scenario 35</a></td>
 <td>Tree</td>
 <td>Exchange</td>
-<td> </td>
 <td>Exchange</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-36">Scenario 36</a></td>
 <td>Construction Site</td>
 <td>Exchange</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-37">Scenario 37</a></td>
-<td> </td>
-<td>Neutral</td>
-<td> </td>
+<td>Construction Site</td>
+<td>None</td>
 <td>Cooperate</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-38">Scenario 38</a></td>
-<td> </td>
-<td>Neutral</td>
-<td> </td>
+<td>Tree</td>
+<td>None</td>
 <td>Conflict</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-39">Scenario 39</a></td>
-<td> </td>
-<td>Neutral</td>
-<td> </td>
+<td>Tree</td>
+<td>None</td>
 <td>Competiton</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-40">Scenario 40</a></td>
-<td> </td>
-<td>Neutral</td>
-<td> </td>
+<td>Tree</td>
+<td>None</td>
 <td>Coercion</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-41">Scenario 41</a></td>
-<td> </td>
-<td>Neutral</td>
-<td> </td>
+<td>Construction Site</td>
+<td>None</td>
 <td>Exchange</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-42">Scenario 42</a></td>
-<td> </td>
-<td>Neutral</td>
-<td> </td>
-<td>Neutral</td>
+<td>Construction Site</td>
+<td>None</td>
+<td>None</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-43">Scenario 43</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Cooperate</td>
-<td> </td>
 <td>Cooperate</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-44">Scenario 44</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Cooperate</td>
-<td> </td>
 <td>Conflict</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-45">Scenario 45</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Cooperate</td>
-<td> </td>
 <td>Competiton</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-46">Scenario 46</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Cooperate</td>
-<td> </td>
 <td>Coercion</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-47">Scenario 47</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Cooperate</td>
-<td> </td>
 <td>Exchange</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-48">Scenario 48</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Cooperate</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-49">Scenario 49</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Conflict</td>
-<td> </td>
 <td>Cooperate</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-50">Scenario 50</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Conflict</td>
-<td> </td>
 <td>Conflict</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-51">Scenario 51</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Conflict</td>
-<td> </td>
 <td>Competiton</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-52">Scenario 52</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Conflict</td>
-<td> </td>
 <td>Coercion</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-53">Scenario 53</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Conflict</td>
-<td> </td>
 <td>Exchange</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-54">Scenario 54</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Conflict</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-55">Scenario 55</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Competiton</td>
-<td> </td>
 <td>Cooperate</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-56">Scenario 56</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Competiton</td>
-<td> </td>
 <td>Conflict</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-57">Scenario 57</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Competiton</td>
-<td> </td>
 <td>Competiton</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-58">Scenario 58</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Competiton</td>
-<td> </td>
 <td>Coercion</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-59">Scenario 59</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Competiton</td>
-<td> </td>
 <td>Exchange</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-60">Scenario 60</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Competiton</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-61">Scenario 61</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Coercion</td>
-<td> </td>
 <td>Cooperate</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-62">Scenario 62</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Coercion</td>
-<td> </td>
 <td>Conflict</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-63">Scenario 63</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Coercion</td>
-<td> </td>
 <td>Competiton</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-64">Scenario 64</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Coercion</td>
-<td> </td>
 <td>Coercion</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-65">Scenario 65</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Coercion</td>
-<td> </td>
 <td>Exchange</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-66">Scenario 66</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Coercion</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-67">Scenario 67</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Exchange</td>
-<td> </td>
 <td>Cooperate</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-68">Scenario 68</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Exchange</td>
-<td> </td>
 <td>Conflict</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-69">Scenario 69</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Exchange</td>
-<td> </td>
 <td>Competiton</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-70">Scenario 70</a></td>
-<td> </td>
+<td>Tree</td>
 <td>Exchange</td>
-<td> </td>
 <td>Coercion</td>
+<td>Tree</td>
 </tr>
 <tr>
 <td><a href="#scenario-71">Scenario 71</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Exchange</td>
-<td> </td>
 <td>Exchange</td>
+<td>Construction Site</td>
 </tr>
 <tr>
 <td><a href="#scenario-72">Scenario 72</a></td>
-<td> </td>
+<td>Construction Site</td>
 <td>Exchange</td>
-<td> </td>
-<td>Neutral</td>
+<td>None</td>
+<td>Construction Site</td>
 </tr>
 </tbody></table>
 
 <hr />
 
 <h6 id="scenario-1">Scenario 1</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Cooperate. Yellow robot is initialized with the physical goal of Tree and social goal of Neutral. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/aA6T6Xueqhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S1level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/PsNMr6GszE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S1level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -678,49 +681,55 @@
 <hr />
 
 <h6 id="scenario-2">Scenario 2</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Conflict. Yellow robot is initialized with the physical goal of Construction Site and social goal of Neutral. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/ZDwUQUqF3-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S2level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/q5FoMXEdO9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S2level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-3">Scenario 3</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Competition. Yellow robot is initialized with the physical goal of Tree and social goal of Neutral. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S3level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S3level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -728,24 +737,28 @@
 <hr />
 
 <h6 id="scenario-4">Scenario 4</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Coercion. Yellow robot is initialized with the physical goal of Tree and social goal of Neutral. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/y2sjrpI4Pas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S4level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/lnptHSTQB5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S4level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -753,24 +766,28 @@
 <hr />
 
 <h6 id="scenario-5">Scenario 5</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Exchange. Yellow robot is initialized with the physical goal of Construction Site and social goal of Neutral. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S5level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S5level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -778,49 +795,56 @@
 <hr />
 
 <h6 id="scenario-6">Scenario 6</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Neutral. Yellow robot is initialized with the physical goal of Tree and social goal of Neutral. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/X9D4kmKSft8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S6level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/jKD5RnYjKcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S6level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-7">Scenario 7</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Cooperate. Yellow robot is initialized with the physical goal of Tree and social goal of Cooperate. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/q0pmZ2tkLZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S7level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/-yZoKtIK6WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S7level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -828,74 +852,84 @@
 <hr />
 
 <h6 id="scenario-8">Scenario 8</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Conflict. Yellow robot is initialized with the physical goal of Construction Site and social goal of Cooperate. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/YL2DkbV4m8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S8level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/KdlPQov_eiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S8level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-9">Scenario 9</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Competition. Yellow robot is initialized with the physical goal of Tree and social goal of Cooperate. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S9level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S9level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-10">Scenario 10</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Coercion. Yellow robot is initialized with the physical goal of Tree and social goal of Cooperate. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/iWKFCMDHDsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S10level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/E_5ecD8m4rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S10level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -903,24 +937,28 @@
 <hr />
 
 <h6 id="scenario-11">Scenario 11</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Exchange. Yellow robot is initialized with the physical goal of Construction Site and social goal of Cooperation. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/bmw3qBhe9FM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S11level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/TY0oP-kcW7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S11level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -928,24 +966,28 @@
 <hr />
 
 <h6 id="scenario-12">Scenario 12</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Neutral. Yellow robot is initialized with the physical goal of Tree and social goal of Cooperate. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/lGhqyo31pTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S12level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/G24tUCnQwYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S12level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -953,24 +995,28 @@
 <hr />
 
 <h6 id="scenario-13">Scenario 13</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Cooperate. Yellow robot is initialized with the physical goal of Construction Site and social goal of Conflict. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/v9GGfLbP6lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S13level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/cd9Zg3GvZok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S13level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -978,24 +1024,28 @@
 <hr />
 
 <h6 id="scenario-14">Scenario 14</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Conflict. Yellow robot is initialized with the physical goal of Construction Site and social goal of Conflict. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/ulQ72TpcaaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S14level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/3r7U8-GBtsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S14level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1003,24 +1053,28 @@
 <hr />
 
 <h6 id="scenario-15">Scenario 15</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Competition. Yellow robot is initialized with the physical goal of Tree and social goal of Conflict. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S15level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S15level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1028,24 +1082,28 @@
 <hr />
 
 <h6 id="scenario-16">Scenario 16</h6>
-<p>Red robot is initialized with the physical goal of  and social goal of Coercion. Yellow robot is initialized with the physical goal of and social goal of Conflict. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S16level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S16level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1053,24 +1111,28 @@
 <hr />
 
 <h6 id="scenario-17">Scenario 17</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Exchange. Yellow robot is initialized with the physical goal of Tree and social goal of Conflict. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/6IufjCCoWQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S17level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/4jK8J1YCPKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S17level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1078,49 +1140,55 @@
 <hr />
 
 <h6 id="scenario-18">Scenario 18</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Neutral. Yellow robot is initialized with the physical goal of Construction and social goal of Conflict. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/x5-1h2WOsTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S18level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/CldQjlAlPuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S18level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-19">Scenario 19</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S19level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S19level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1128,24 +1196,27 @@
 <hr />
 
 <h6 id="scenario-20">Scenario 20</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Construction Site</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S20level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S20level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1153,24 +1224,27 @@
 <hr />
 
 <h6 id="scenario-21">Scenario 21</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S21level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S21level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1178,24 +1252,27 @@
 <hr />
 
 <h6 id="scenario-22">Scenario 22</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Construction Site</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S22level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S22level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1203,24 +1280,28 @@
 <hr />
 
 <h6 id="scenario-23">Scenario 23</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S23level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S23level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1228,24 +1309,28 @@
 <hr />
 
 <h6 id="scenario-24">Scenario 24</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S24level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S24level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1253,49 +1338,56 @@
 <hr />
 
 <h6 id="scenario-25">Scenario 25</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Cooperate. Yellow robot is initialized with the physical goal of Construction Site and social goal of Coercion. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/5MLA5jTWafA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S25level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/9ZqOn80avUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S25level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-26">Scenario 26</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Conflict. Yellow robot is initialized with the physical goal of Tree and social goal of Coercion. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/ZbKb5ufcSEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S26level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/7__tdLfts68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S26level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1303,49 +1395,56 @@
 <hr />
 
 <h6 id="scenario-27">Scenario 27</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S27level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S27level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-28">Scenario 28</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Coercion. Yellow robot is initialized with the physical goal of Tree and social goal of Coercion. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/3mZ4bDzh84A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S28level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/LX3XH2RmUCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S28level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1353,49 +1452,56 @@
 <hr />
 
 <h6 id="scenario-29">Scenario 29</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Exchange. Yellow robot is initialized with the physical goal of Construction Site and social goal of Coercion. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/3yJYs9QDh9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S29level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/N9bEGz2OXX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S29level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-30">Scenario 30</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Neutral. Yellow robot is initialized with the physical goal of Tree and social goal of Coercion. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/wiJf7_9XHGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S30level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/TBuOTlUzc3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S30level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1403,24 +1509,28 @@
 <hr />
 
 <h6 id="scenario-31">Scenario 31</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S31level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S31level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1428,24 +1538,28 @@
 <hr />
 
 <h6 id="scenario-32">Scenario 32</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Conflict. Yellow robot is initialized with the physical goal of Construction Site and social goal of Exchange. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/CEWe4djsUsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S32level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/aUj4biBs-KQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S32level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1453,49 +1567,56 @@
 <hr />
 
 <h6 id="scenario-33">Scenario 33</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S33level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S33level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-34">Scenario 34</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S34level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S34level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1503,24 +1624,28 @@
 <hr />
 
 <h6 id="scenario-35">Scenario 35</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Exchange. Yellow robot is initialized with the physical goal of Tree and social goal of Exchange. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/sMTkHizQRjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S35level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/UcElWwq3XFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S35level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1528,24 +1653,28 @@
 <hr />
 
 <h6 id="scenario-36">Scenario 36</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S36level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S36level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1553,49 +1682,54 @@
 <hr />
 
 <h6 id="scenario-37">Scenario 37</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S37level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S37level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-38">Scenario 38</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S38level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S38level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1603,24 +1737,28 @@
 <hr />
 
 <h6 id="scenario-39">Scenario 39</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Competition. Yellow robot is initialized with the physical goal of Tree and social goal of Neutral. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/KJkvm41Q7pE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S39level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/BwAzZfnHPKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S39level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1628,24 +1766,28 @@
 <hr />
 
 <h6 id="scenario-40">Scenario 40</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Coercion. Yellow robot is initialized with the physical goal of Tree and social goal of Neutral. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/8L7MNeMLwcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S40level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/4Az_ItjDG6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S40level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1653,24 +1795,28 @@
 <hr />
 
 <h6 id="scenario-41">Scenario 41</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Exchange. Yellow robot is initialized with the physical goal of Construction Site and social goal of Neutral. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em></span></p>
 
-<table cellpadding="1"><iframe width="857" height="482" src="https://www.youtube.com/embed/cbqGuhXNVJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/cbqGuhXNVJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S41level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/kWt6blJyI7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S41level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1678,24 +1824,28 @@
 <hr />
 
 <h6 id="scenario-42">Scenario 42</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Neutral. Yellow robot is initialized with the physical goal of Construction Site and social goal of Neutral. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/lwT_Z0aXA88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S42level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/5uRhGLROPEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S42level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1703,24 +1853,27 @@
 <hr />
 
 <h6 id="scenario-43">Scenario 43</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S43level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S43level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1728,49 +1881,56 @@
 <hr />
 
 <h6 id="scenario-44">Scenario 44</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S44level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S44level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-45">Scenario 45</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Competition. Yellow robot is initialized with the physical goal of Tree and social goal of Cooperate. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/CNk27M6oQKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S45level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/nuPivQpvEB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S45level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1778,24 +1938,28 @@
 <hr />
 
 <h6 id="scenario-46">Scenario 46</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Coercion. Yellow robot is initialized with the physical goal of Construction Site and social goal of Cooperate. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/8vbiFOC_njs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S46level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/kNOePiI-aQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S46level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1803,24 +1967,28 @@
 <hr />
 
 <h6 id="scenario-47">Scenario 47</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Exchange. Yellow robot is initialized with the physical goal of Construction Site and social goal of Cooperate. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           <iframe width="857" height="482" src="https://www.youtube.com/embed/7oh3UdSiUFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S47level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/5q4_VYssbYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S47level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1828,24 +1996,28 @@
 <hr />
 
 <h6 id="scenario-48">Scenario 48</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S48level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S48level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1853,24 +2025,28 @@
 <hr />
 
 <h6 id="scenario-49">Scenario 49</h6>
-<p>Red robot is initialized with the physical goal of Construction Site and social goal of Cooperate. Yellow robot is initialized with the physical goal of Construction site and social goal of Conflict. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/pPUnspVGXxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S49level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/CdQ9I2z2IDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S49level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1878,24 +2054,28 @@
 <hr />
 
 <h6 id="scenario-50">Scenario 50</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S50level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S50level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1903,48 +2083,56 @@
 <hr />
 
 <h6 id="scenario-51">Scenario 51</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S51level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S51level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
+
 <hr />
 
 <h6 id="scenario-52">Scenario 52</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Coercion. Yellow robot is initialized with the physical goal of Tree and social goal of Conflict. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/Q3WwP8wdu14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S52level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/NTayxcWqxCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S52level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1952,24 +2140,28 @@
 <hr />
 
 <h6 id="scenario-53">Scenario 53</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S53level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S53level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -1977,24 +2169,28 @@
 <hr />
 
 <h6 id="scenario-54">Scenario 54</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S54level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S54level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2002,24 +2198,28 @@
 <hr />
 
 <h6 id="scenario-55">Scenario 55</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S55level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S55level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2027,24 +2227,28 @@
 <hr />
 
 <h6 id="scenario-56">Scenario 56</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S56level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S56level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2052,24 +2256,28 @@
 <hr />
 
 <h6 id="scenario-57">Scenario 57</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S57level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S57level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2077,24 +2285,28 @@
 <hr />
 
 <h6 id="scenario-58">Scenario 58</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S58level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S58level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2102,24 +2314,28 @@
 <hr />
 
 <h6 id="scenario-59">Scenario 59</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S59level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S59level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2127,24 +2343,28 @@
 <hr />
 
 <h6 id="scenario-60">Scenario 60</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S60level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S60level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2152,24 +2372,28 @@
 <hr />
 
 <h6 id="scenario-61">Scenario 61</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S61level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S61level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2177,24 +2401,28 @@
 <hr />
 
 <h6 id="scenario-62">Scenario 62</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S62level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S62level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2202,49 +2430,56 @@
 <hr />
 
 <h6 id="scenario-63">Scenario 63</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of Competition. Yellow robot is initialized with the physical goal of Tree and social goal of Coercion. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/xDG-sbhzdzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S63level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <iframe width="857" height="482" src="https://www.youtube.com/embed/8VUD-SKQzCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S63level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-64">Scenario 64</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S64level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S64level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2252,24 +2487,28 @@
 <hr />
 
 <h6 id="scenario-65">Scenario 65</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Construction Site</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S65level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S65level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2277,24 +2516,28 @@
 <hr />
 
 <h6 id="scenario-66">Scenario 66</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em></span></p>
 
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S66level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S66level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2302,48 +2545,54 @@
 <hr />
 
 <h6 id="scenario-67">Scenario 67</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Cooperate</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S67level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S67level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
 <hr />
 
 <h6 id="scenario-68">Scenario 68</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Tree</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S68level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S68level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2351,49 +2600,54 @@
 <hr />
 
 <h6 id="scenario-69">Scenario 69</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Competition</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Tree</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S69level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S69level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-
 <hr />
 
 <h6 id="scenario-70">Scenario 70</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Coercion</strong>; Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Tree</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S70level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S70level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2401,24 +2655,27 @@
 <hr />
 
 <h6 id="scenario-71">Scenario 71</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S71level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S71level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
@@ -2426,24 +2683,27 @@
 <hr />
 
 <h6 id="scenario-72">Scenario 72</h6>
-<p>Red robot is initialized with the physical goal of and social goal of . Yellow robot is initialized with the physical goal of and social goal of . Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
-
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>None</strong>; Physical:<em>Construction Site</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>Exchange</strong>; Physical:<em>Construction Site</em></span></p>
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            Level 1
+            <b>Level 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            Level 2
+            <b>Level 2</b>
         </td>
     </tr>
     
     <tr>
         <td>
-           
+            <center>
+                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S72level1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S72level2.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>

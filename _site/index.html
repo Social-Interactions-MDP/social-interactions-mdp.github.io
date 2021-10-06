@@ -124,7 +124,7 @@
 	<div class="wrap">
 
 		<h1>Incorporating Rich Social Interactions Into MDPs</h1>
-		<p>As we aim to enable robots to engage socially with other agents much as we do as humans, there is a need for a rich theory of social interactions. We formalize this by extending Social MDPs where agents reason about arbitrary functions of each others hidden rewards. The extended Social MDPs encode five basic social interactions: <i>cooperate, conflict, competition, coercion and exchange</i> and can produce actions that are close to human judgements.</p>
+		<p>As we aim to enable robots to engage socially with other agents much as we do as humans there is a need for a rich theory of social interactions. We formalize this by extending Social MDPs where agents reason about the arbitrary functions of each others hidden rewards with different levels of reasoning. The extended Social MDPs encode five basic social interactions: <i>cooperate, conflict, competition, coercion and exchange</i> and can produce actions that are close to human judgements.</p>
 
 	</div>
 
@@ -132,10 +132,10 @@
 
 <section class="single">
 
-	<h2 id="experimental-scenarios">Experimental Scenarios</h2>
-<p>We apply our extended Social MDP framework to a multi-agent gridworld. This 10x10 world consists of two agents (a yellow robot and red robot), two physical landmarks (a construction site and a tree) and three objects (an axe, wooden log, and a water bucket). Objects can be pushed to either destination. Physical goals consist of moving the desired objects to one of the landmarks. Agents can have <em>no social goal</em> or one of the five social goals: <em>cooperation, conflict, competition, coercion, or exchange</em> - leading to 2x6x6 = 72 scenarios. At any point in time, agents can push an object forward, move in one of the four cardinal directions or choose to take no actions. Refer to the list of <a href="/scenarios">all experimenal scenarios</a>.</p>
+	<p><img src="/images/index/levels-of-reasoning.gif" /></p>
 
-<h4 id="example-demonstration">Example Demonstration</h4>
+<h2 id="scenarios">Scenarios</h2>
+<p>We apply the extended Social MDP framework to a multi-agent gridworld which consists of two agents (a yellow robot and red robot), two physical landmarks (a construction site and a tree) and three objects (an axe, wooden log, and a water bucket). Physical goals consist of moving the desired objects to one of the landmarks. Agents can have <em>no social goal</em> or one of the five social goals: <em>cooperation, conflict, competition, coercion, or exchange</em> - leading to 2x6x6 = 72 scenarios. See <a href="/scenarios">all scenarios</a> for the list of all experimental scenarios.</p>
 
 <table cellpadding="1">
     <tr>
@@ -149,29 +149,22 @@
     
     <tr>
         <td>
-            <center><img src="/images/index/s11-l1.gif" /></center>
+            <center>
+                <img src="/images/index/s11-l1.gif" onmouseover="this.src='/images/index/s11-l1.gif';" onmouseout="this.src='/images/index/level-1.png';" />
+            </center>
         </td>
         <td>
-            <center><img src="/images/index/s11-l2.gif" /></center>
+            <center>
+                <img src="/images/index/level-2.png" onmouseover="this.src='/images/index/output-x.gif';" onmouseout="this.src='/images/index/level-2.png';" />
+            </center>
         </td>
     </tr>
 </table>
-<p><span style="font-size:medium;"><font color="red">Red robot's goal</font> (Social:<strong>Exchange</strong>; Physical:<em>Tree</em>). <font color="orange">Yellow robot's goal</font> (Social:<strong>Cooperation</strong>; Physical:<em>Construction Site</em>). Using extended Social MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot, and takes optimal actions in order to reach its goal.</span></p>
-
-<h2 id="inferring-social-interactions-at-different-levels">Inferring Social Interactions at Different Levels</h2>
-<p><img src="/images/index/levels-of-reasoning.gif" /></p>
-
-<h2 id="contributions">Contributions</h2>
-<ul>
-  <li>A novel Social MDP that allows robots to execute five fundamental social interactions from microsociology.</li>
-  <li>The first formalization of what those interactions are.</li>
-  <li>Computational implementation that enables robots to engage in social interactions zero-shot, without any social-interaction-specific training.</li>
-  <li>Extensive human experiments that validate the model and demonstrate its ability to capture human judgments about social interactions.</li>
-</ul>
+<p><span style="font-size:medium;"><b>Example Demonstration </b><br /><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:<strong>Conflict</strong> Physical:<em>Tree</em> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Social:<strong>None</strong> Physical:<em>Construction Site</em> <br />Using extended Social MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot, and takes optimal actions in order to reach its goal.</span></p>
 
 <h2 id="results">Results</h2>
 <p><img src="/images/index/goal-weights.png" width="900" /></p>
-<p><span style="font-size:medium;">Humans and our model scored 72 scenarios according to how likely each social interaction was and how likely one of the physical goals was. The straight line is the best linear fit and the light blue band represents the 95% confidence interval. Our model agrees with humans and predicts their confidence scores for both social interactions and the physical goal. Refer to the <a href="/results">results of all experimenal scenarios</a>.</span></p>
+<p><span style="font-size:medium;">Humans and our model scored 72 scenarios according to how likely each social interaction was and how likely one of the physical goals was. The straight line is the best linear fit and the light blue band represents the 95% confidence interval. Our model agrees with humans and predicts their confidence scores for both social interactions and the physical goal. See <a href="/results">results for all scenarios</a>.</span></p>
 
 <h3 id="paper">Paper</h3>
 <p>The paper is currently under review at the <em>39th IEEE Conference on Robotics and Automation (ICRA 2022)</em>. Refer to the <a href="/paper">latest version of the paper</a>.</p>

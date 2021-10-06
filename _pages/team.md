@@ -5,180 +5,77 @@ subtitle:
 ---
 
 
-
-<section class="portfolio">
-
-	<div class="content-wrap portfolio-wrap">
-
-		
-		<div class="portfolio-item">
-
-			<a class="portfolio-item__link">
-
-				<div class="portfolio-item__image">
-					<img src="/images/team/ravi.png" alt="">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Ravi Tejwani</h2>
-						<p class="portfolio-item__subtitle">MIT CSAIL, CBMM</p>
-					</div>
-				</div>
-
-			</a>
-
-		</div>
-        
-        
-        
-        
-        
-        <div class="portfolio-item">
-
-			<a class="portfolio-item__link">
-
-				<div class="portfolio-item__image">
-					<img src="/images/team/yen-ling.png" alt="">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Yen-Ling</h2>
-						<p class="portfolio-item__subtitle">MIT CSAIL, CBMM</p>
-					</div>
-				</div>
-
-			</a>
-
-		</div>
-        
-        
-        <div class="portfolio-item">
-
-			<a class="portfolio-item__link">
-
-				<div class="portfolio-item__image">
-					<img src="/images/team/tianmin.png" alt="">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Tianmin Shu</h2>
-						<p class="portfolio-item__subtitle">MIT CSAIL, BCS</p>
-					</div>
-				</div>
-
-			</a>
-
-		</div>
-        
-        <div class="portfolio-item">
-
-			<a class="portfolio-item__link">
-
-				<div class="portfolio-item__image">
-					<img src="/images/team/bennett.png" alt="">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Bennett Stankovits</h2>
-						<p class="portfolio-item__subtitle">MIT CSAIL, CBMM</p>
-					</div>
-				</div>
-
-			</a>
-
-		</div>
-        
+<table cellpadding="">
     
-        <div class="portfolio-item">
-
-			<a class="portfolio-item__link">
-
-				<div class="portfolio-item__image">
-					<img src="/images/team/danny.png" alt="">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Dan Gutfreund</h2>
-						<p class="portfolio-item__subtitle">MIT-IBM Watson AI Lab</p>
-					</div>
-				</div>
-
-			</a>
-
-		</div>
+    <tr>
+        <td style="width:25%; text-align:center">
+           
+        </td>
+        <td style="width:25%; text-align:center">
+       
+        </td>
         
-        <div class="portfolio-item">
-
-			<a class="portfolio-item__link">
-
-				<div class="portfolio-item__image">
-					<img src="/images/team/tenenbaum.png" alt="">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Josh Tenenbaum</h2>
-						<p class="portfolio-item__subtitle">MIT CSAIL, CBMM</p>
-					</div>
-				</div>
-
-			</a>
-
-		</div>
+        <td style="width:25%; text-align:center">
+          
+        </td>
         
-        <div class="portfolio-item">
-
-			<a class="portfolio-item__link">
-
-				<div class="portfolio-item__image">
-					<img src="/images/team/boris.png" alt="">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Boris Katz</h2>
-						<p class="portfolio-item__subtitle">MIT CSAIL, CBMM</p>
-					</div>
-				</div>
-
-			</a>
-
-		</div>
-        
-        <div class="portfolio-item">
-
-			<a class="portfolio-item__link">
-
-				<div class="portfolio-item__image">
-					<img src="/images/team/andrei.png" alt="">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Andrei Barbu</h2>
-						<p class="portfolio-item__subtitle">MIT CSAIL, CBMM</p>
-					</div>
-				</div>
-
-			</a>
-
-		</div>
-        
-        
-        
-        
-        
-        
-        
-        
-
-		
-
-	</div>
-
-</section>
+        <td style="width:25%; text-align:center">
+         
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+                <figure>
+                    <img src="/images/team/ravi.png" alt="">
+                    <figcaption>Ravi Tejwani<br/><span style="font-size:medium; font-weight:normal; font-style: italic;">MIT CSAIL</span></figcaption>
+                </figure>
+        </td>
+        <td>
+                <figure>
+                    <img src="/images/team/yen-ling.png" alt="">
+                    <figcaption>Yen-Ling Kuo <br/> <span style="font-size:medium; font-weight:normal; font-style: italic;">MIT CSAIL</span></figcaption>
+                </figure>
+    
+        </td>
+        <td>
+                <figure>
+                    <img src="/images/team/tianmin.png" alt="">
+                    <figcaption>Tianmin Shu<br/> <span style="font-size:medium; font-weight:normal; font-style: italic;">MIT CSAIL, BCS</span></figcaption>
+                </figure>
+        </td>
+        <td>
+                <figure>
+                    <img src="/images/team/bennett.png" alt="" width="250">
+                    <figcaption>Bennett Stankovits<br/> <span style="font-size:medium; font-weight:normal; font-style: italic;">MIT CSAIL</span></figcaption>
+                </figure>
+        </td>
+    </tr>
+    
+     <tr>
+        <td>
+                <figure>
+                    <img src="/images/team/danny.png" alt="" width="125">
+                    <figcaption>Dan Gutfreund<br/> <span style="font-size:medium; font-weight:normal; font-style: italic;">MIT-IBM Watson AI Lab</span></figcaption>
+                </figure>
+        </td>
+        <td>
+                <figure>
+                    <img src="/images/team/tenenbaum.png" alt="" width="300">
+                    <figcaption>Josh Tenenbaum<br/> <span style="font-size:medium; font-weight:normal; font-style: italic;">MIT CSAIL, BCS</span></figcaption>
+                </figure>
+        </td>
+        <td>
+                <figure>
+                    <img src="/images/team/boris.png" alt="" width="400">
+                    <figcaption>Boris Katz<br/> <span style="font-size:medium; font-weight:normal; font-style: italic;">MIT CSAIL</span></figcaption>
+                </figure>
+        </td>
+        <td>
+                <figure>
+                    <img src="/images/team/andrei.png" alt="" width="200">
+                    <figcaption>Andrei Barbu<br/> <span style="font-size:medium; font-weight:normal; font-style: italic;">MIT CSAIL</span></figcaption>
+                </figure>
+        </td>
+    </tr>
+</table>
