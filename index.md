@@ -1,7 +1,7 @@
 ---
 layout: index
 title: 'Incorporating Rich Social Interactions Into MDPs'
-subtitle: 'As we aim to enable robots to engage socially with other agents much as we do as humans there is a need for a rich theory of social interactions. We formalize this by extending Social MDPs where agents reason about the arbitrary functions of each others hidden rewards with different levels of reasoning. The extended Social MDPs encode five basic social interactions: <i>cooperate, conflict, competition, coercion and exchange</i> and can produce actions that are close to human judgements.'
+subtitle: 'As we aim to enable robots to engage socially with other agents, as much as we do as humans, there is a need for a rich theory of social interactions. We formalize this by extending Social MDPs where agents reason about the arbitrary functions of each others hidden rewards with different levels of reasoning. The extended Social MDPs encode five basic social interactions: <i>cooperate, conflict, competition, coercion and exchange</i> and can produce actions that are close to human judgements.'
 ---
 
 <img src="/images/index/levels-of-reasoning.gif" >
@@ -22,12 +22,12 @@ We apply the extended Social MDP framework to a multi-agent gridworld which cons
     <tr>
         <td>
             <center>
-                <img src="/images/index/s11-l1.gif" onmouseover="this.src='/images/index/s11-l1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/index/s11-l1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/index/output-x.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/index/s11-l2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>

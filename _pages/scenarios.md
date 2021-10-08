@@ -539,12 +539,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S1level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S1level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S1level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S1level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -567,12 +567,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S2level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S2level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S2level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S2level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -596,12 +596,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S3level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S3level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S3level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S3level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -625,12 +625,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S4level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S4level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S4level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S4level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -654,12 +654,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S5level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S5level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S5level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S5level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -683,12 +683,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S6level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S6level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S6level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S6level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -711,12 +711,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S7level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S7level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S7level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S7level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -740,12 +740,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S8level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S8level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S8level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S8level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -768,12 +768,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S9level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S9level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S9level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S9level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -796,12 +796,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S10level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S10level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S10level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S10level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -825,12 +825,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S11level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S11level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S11level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S11level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -854,12 +854,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S12level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S12level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S12level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S12level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -883,12 +883,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S13level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S13level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S13level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S13level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -912,12 +912,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S14level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S14level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S14level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S14level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -941,12 +941,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S15level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S15level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S15level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S15level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -970,12 +970,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S16level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S16level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S16level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S16level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -999,12 +999,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S17level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S17level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S17level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S17level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1028,12 +1028,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S18level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S18level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S18level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S18level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1055,12 +1055,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S19level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S19level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S19level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S19level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1083,12 +1083,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S20level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S20level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S20level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S20level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1111,12 +1111,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S21level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S21level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S21level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S21level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1139,12 +1139,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S22level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S22level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S22level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S22level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1168,12 +1168,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S23level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S23level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S23level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S23level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1197,12 +1197,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S24level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S24level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S24level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S24level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1226,12 +1226,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S25level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S25level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S25level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S25level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1254,12 +1254,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S26level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S26level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S26level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S26level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1283,12 +1283,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S27level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S27level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S27level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S27level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1311,12 +1311,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S28level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S28level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S28level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S28level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1340,12 +1340,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S29level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S29level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S29level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S29level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1368,12 +1368,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S30level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S30level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S30level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S30level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1397,12 +1397,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S31level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S31level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S31level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S31level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1426,12 +1426,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S32level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S32level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S32level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S32level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1455,12 +1455,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S33level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S33level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S33level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S33level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1483,12 +1483,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S34level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S34level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S34level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S34level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1512,12 +1512,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S35level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S35level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S35level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S35level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1541,12 +1541,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S36level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S36level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S36level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S36level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1569,12 +1569,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S37level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S37level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S37level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S37level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1596,12 +1596,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S38level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S38level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S38level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S38level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1625,12 +1625,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S39level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S39level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S39level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S39level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1654,12 +1654,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S40level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S40level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S40level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S40level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1683,12 +1683,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S41level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S41level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S41level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S41level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1712,12 +1712,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S42level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S42level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S42level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S42level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1740,12 +1740,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S43level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S43level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S43level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S43level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1769,12 +1769,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S44level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S44level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S44level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S44level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1797,12 +1797,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S45level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S45level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S45level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S45level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1826,12 +1826,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S46level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S46level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S46level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S46level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1855,12 +1855,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S47level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S47level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S47level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S47level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1884,12 +1884,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S48level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S48level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S48level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S48level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1913,12 +1913,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S49level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S49level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S49level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S49level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1942,12 +1942,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S50level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S50level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S50level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S50level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1970,12 +1970,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S51level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S51level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S51level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S51level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -1999,12 +1999,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S52level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S52level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S52level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S52level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2028,12 +2028,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S53level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S53level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S53level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S53level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2057,12 +2057,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S54level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S54level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S54level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S54level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2086,12 +2086,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S55level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S55level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S55level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S55level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2115,12 +2115,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S56level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S56level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S56level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S56level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2144,12 +2144,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S57level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S57level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S57level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S57level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2173,12 +2173,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S58level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S58level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S58level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S58level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2202,12 +2202,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S59level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S59level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S59level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S59level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2231,12 +2231,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S60level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S60level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S60level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S60level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2260,12 +2260,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S61level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S61level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S61level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S61level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2289,12 +2289,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S62level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S62level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S62level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S62level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2318,12 +2318,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S63level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S63level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S63level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S63level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2346,12 +2346,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S64level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S64level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S64level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S64level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2375,12 +2375,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S65level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S65level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S65level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S65level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2404,12 +2404,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S66level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S66level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S66level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S66level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2432,12 +2432,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S67level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S67level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S67level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S67level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2459,12 +2459,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S68level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S68level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S68level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S68level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2487,12 +2487,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S69level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S69level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S69level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S69level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2514,12 +2514,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S70level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S70level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S70level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S70level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2542,12 +2542,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S71level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S71level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S71level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S71level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
@@ -2570,12 +2570,12 @@ subtitle: 'We apply the extended Social MDP framework to a multi-agent gridworld
     <tr>
         <td>
             <center>
-                <img src="/images/scenarios/S1level1.gif" onmouseover="this.src='/images/scenarios/S72level1.gif';" onmouseout="this.src='/images/index/level-1.png';">
+                <img src="/images/index/level-1-hover.png" onmouseover="this.src='/images/scenarios/S72level1.gif';" onmouseout="this.src='/images/index/level-1-hover.png';">
             </center>
         </td>
         <td>
             <center>
-                <img src="/images/index/level-2.png" onmouseover="this.src='/images/scenarios/S72level2.gif';" onmouseout="this.src='/images/index/level-2.png';">
+                <img src="/images/index/level-2-hover.png" onmouseover="this.src='/images/scenarios/S72level2.gif';" onmouseout="this.src='/images/index/level-2-hover.png';">
             </center>
         </td>
     </tr>
